@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div>
+            Digite um número : <input type="number" name="txtn1" id="txtn1">
+            <input type="button" value="+" id="somar" onclick="somar()">
+            <input type="button" value="-" id="menos" onclick="menos()">
+            <input type="button" value="/" id="dividir" onclick="dividir()">
+            <input type="button" value="x" id="multiplicar" onclick="multiplicar()">
+            <input type="button" value="=" id="igual" onclick="result()">
+            <div id="res"></div>
+            <div id="historico"></div>
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; Everton Leite</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
